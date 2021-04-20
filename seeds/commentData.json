@@ -1,0 +1,22 @@
+[
+  {
+    "comment": "comment 1",
+    "date_created":"03/01/2021",
+    "user_id":1,
+    "post_id":1
+  },
+  {
+    "comment": "comment 2",
+    "date_created":"04/02/2021",
+    "user_id":3,
+    "post_id":4
+  },
+  {
+    "comment": "comment 3",
+    "date_created":"03/01/2021",
+    "user_id":2,
+    "post_id":5
+  }
+  
+  
+]
