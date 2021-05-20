@@ -205,6 +205,18 @@ h4 {
   color: var(--light-dark);
   line-height: 1.25;
 }
+.titleStyle {
+  display: flex;
+  justify-content: center;
+  color: #1b89bc;
+  text-decoration: none;
+
+  border-radius: 25px;
+
+  border: 5px dotted #201110;
+
+  background-clip: border-box;
+}
 a {
   color: #1b89bc;
   text-decoration: none;
@@ -227,6 +239,10 @@ a:hover {
   padding: 10px;
   line-height: 1.25;
   float: top;
+}
+
+nav a {
+  margin-left: 40px;
 }
 
 footer {

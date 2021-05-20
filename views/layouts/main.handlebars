@@ -15,22 +15,22 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>
-
-                <a href="/"> The Tech Blog </a>
+            <h1 >
+                <a class="titleStyle" href="/"> The Tech Blog </a>
+                
 
             </h1>
             <nav>
-                <span><a href="/">Home</a></span>
+                
+                    <span><a href="/">Home</a></span>
 
-
-
-                {{#if loggedIn}}
-                <a href="/dashboard">Dashboard</a>
-                <button id="logout" class="no-button">Logout</button>
-                {{else}}
-                <a href="/login">Login</a>
+                    {{#if loggedIn}}
+                    <a href="/dashboard">Dashboard</a>
+                    <button id="logout" class="no-button">Logout</button>
+                    {{else}}
+                    <a href="/login">Login</a>
                 {{/if}}
+               
             </nav>
         </header>
 
